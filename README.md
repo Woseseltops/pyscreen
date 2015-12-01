@@ -6,7 +6,7 @@ This library allows you create, find and kill screen sessions programmatically f
     import pyscreen
 
     #Start a new session and give it something to do    
-    session = pyscreen.Session('myName')
+    session = pyscreen.ScreenSession('myName')
     session.send_command('echo hello')
 
     #Kill a screen session with a particular name
