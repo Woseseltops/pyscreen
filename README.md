@@ -16,3 +16,9 @@ This library allows you create, find and kill screen sessions programmatically f
     #Print all the id of all sessions
     for session in pyscreen.get_all_sessions():
         print(session.id)
+
+## Installation
+
+Either `git clone` this directory, or run
+
+    pip install pyscreen
